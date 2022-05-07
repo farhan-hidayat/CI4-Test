@@ -10,6 +10,6 @@ class Dashboard extends BaseController
             'title' => "Dashboard",
             'isi' => "admin/v_dashboard"
         ];
-        return view('admin/v_dashboard',$data);
+        return view('dashboard/v_dashboard',$data);
     }
 }
